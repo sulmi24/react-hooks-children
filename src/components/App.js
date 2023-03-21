@@ -31,6 +31,20 @@ function App() {
           src="https://pbs.twimg.com/profile_images/3022993403/fdae67d800527328cee7a222f048dbbd.jpeg"
         />
       </Container>
+      <Container
+        header="Example header"
+        direction="vertical"
+        textPosition="right"
+      >
+        <div>This is an example in has the text position to right!</div>
+      </Container>
+      <Container
+        header="Example header"
+        direction="vertical"
+        contentPosition="left"
+      >
+        <div>This is an example in has the content position to left!</div>
+      </Container>
     </div>
   );
 }
